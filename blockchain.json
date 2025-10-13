@@ -1,0 +1,527 @@
+[
+    {
+        "idx": 0,
+        "timestamp": 1760348388.038887,
+        "student_data": {
+            "message": "Genesis Block"
+        },
+        "previous_hash": "0",
+        "nonce": 48128,
+        "hash": "0000b6cb166ec8b991f4c470d8ff771aeb5a18eb13488cf5a456326096a8e533"
+    },
+    {
+        "idx": 1,
+        "timestamp": 1760348429.8877268,
+        "student_data": {
+            "name": "ABC",
+            "roll": "1",
+            "email": "abc@gmail.com",
+            "semester": "1",
+            "contact": "9719633279",
+            "marks": {}
+        },
+        "previous_hash": "0000b6cb166ec8b991f4c470d8ff771aeb5a18eb13488cf5a456326096a8e533",
+        "nonce": 31756,
+        "hash": "00009e649f8e6db2b89ae071ce455ef3b38d7aec77a838c96aafd007a280c6d7"
+    },
+    {
+        "idx": 2,
+        "timestamp": 1760348470.3665285,
+        "student_data": {
+            "name": "xyz",
+            "roll": "2",
+            "email": "xyz@gmail.com",
+            "semester": "1",
+            "contact": "8718766549",
+            "marks": {}
+        },
+        "previous_hash": "00009e649f8e6db2b89ae071ce455ef3b38d7aec77a838c96aafd007a280c6d7",
+        "nonce": 4536,
+        "hash": "0000427834ec69b2457a64c33491f70117345b02d43ff6e7bf3d8d38609b13e9"
+    },
+    {
+        "idx": 3,
+        "timestamp": 1760348800.6032927,
+        "student_data": {
+            "name": "pqr",
+            "roll": "3",
+            "email": "pqr@yahoo.com",
+            "semester": "1",
+            "contact": "1234567890",
+            "marks": {}
+        },
+        "previous_hash": "0000427834ec69b2457a64c33491f70117345b02d43ff6e7bf3d8d38609b13e9",
+        "nonce": 156170,
+        "hash": "0000ea2db8eb05e57cc854387a651c3150dc8782adc9ebbfeddd431bebb4f340"
+    },
+    {
+        "idx": 4,
+        "timestamp": 1760348832.4680052,
+        "student_data": {
+            "name": "ABC",
+            "roll": "1",
+            "email": "abc@gmail.com",
+            "semester": "1",
+            "contact": "9719633279",
+            "marks": {
+                "1": {
+                    "Physics": 90,
+                    "Mathematics-I": 89,
+                    "Introduction to Electrical Engineering": 97
+                }
+            }
+        },
+        "previous_hash": "0000ea2db8eb05e57cc854387a651c3150dc8782adc9ebbfeddd431bebb4f340",
+        "nonce": 29024,
+        "hash": "0000475af7c03f7a1ef8d2ee3f03f67960fd7a3269de2ba67ef2d2d8ada13066"
+    },
+    {
+        "idx": 5,
+        "timestamp": 1760348873.221649,
+        "student_data": {
+            "name": "xyz",
+            "roll": "2",
+            "email": "xyz@gmail.com",
+            "semester": "1",
+            "contact": "8718766549",
+            "marks": {
+                "1": {
+                    "Physics": 87,
+                    "Mathematics-I": 88,
+                    "Introduction to Electrical Engineering": 79
+                }
+            }
+        },
+        "previous_hash": "0000475af7c03f7a1ef8d2ee3f03f67960fd7a3269de2ba67ef2d2d8ada13066",
+        "nonce": 31431,
+        "hash": "00005163e48315e32892d2a6732e61db32c72e49440a82098ae67c38628221c5"
+    },
+    {
+        "idx": 6,
+        "timestamp": 1760348912.8844333,
+        "student_data": {
+            "name": "pqr",
+            "roll": "3",
+            "email": "pqr@yahoo.com",
+            "semester": "1",
+            "contact": "1234567890",
+            "marks": {
+                "1": {
+                    "Physics": 89,
+                    "Mathematics-I": 99,
+                    "Introduction to Electrical Engineering": 99
+                }
+            }
+        },
+        "previous_hash": "00005163e48315e32892d2a6732e61db32c72e49440a82098ae67c38628221c5",
+        "nonce": 89081,
+        "hash": "00008bac4c78f7a6fb68eddb32a58e66efd9670ede1293e2875bf6b0117813ae"
+    },
+    {
+        "idx": 7,
+        "timestamp": 1760349036.2800412,
+        "student_data": {
+            "name": "ABC",
+            "roll": "1",
+            "email": "abc@gmail.com",
+            "semester": "1",
+            "contact": "9719633279",
+            "marks": {
+                "1": {
+                    "Physics": 99,
+                    "Mathematics-I": 89,
+                    "Introduction to Electrical Engineering": 97
+                }
+            }
+        },
+        "previous_hash": "00008bac4c78f7a6fb68eddb32a58e66efd9670ede1293e2875bf6b0117813ae",
+        "nonce": 17752,
+        "hash": "0000d5d9617c263e41b69f881a1c5277d0c90959997445c2e194d738623b08fb"
+    },
+    {
+        "idx": 8,
+        "timestamp": 1760349226.6119473,
+        "student_data": {
+            "name": "ABC",
+            "roll": "1",
+            "email": "abc@gmail.com",
+            "semester": "2",
+            "contact": "9719633279",
+            "marks": {
+                "1": {
+                    "Physics": 99,
+                    "Mathematics-I": 89,
+                    "Introduction to Electrical Engineering": 97
+                }
+            }
+        },
+        "previous_hash": "0000d5d9617c263e41b69f881a1c5277d0c90959997445c2e194d738623b08fb",
+        "nonce": 41078,
+        "hash": "00000247a3bdeb91e349bc438771ca2a3e1c28966a59541025d348e7000f015d"
+    },
+    {
+        "idx": 9,
+        "timestamp": 1760349277.4202445,
+        "student_data": {
+            "name": "xyz",
+            "roll": "2",
+            "email": "xyz@gmail.com",
+            "semester": "2",
+            "contact": "8718766549",
+            "marks": {
+                "1": {
+                    "Physics": 87,
+                    "Mathematics-I": 88,
+                    "Introduction to Electrical Engineering": 79
+                }
+            }
+        },
+        "previous_hash": "00000247a3bdeb91e349bc438771ca2a3e1c28966a59541025d348e7000f015d",
+        "nonce": 7078,
+        "hash": "0000841a6b7bb10274fbf6cc1fa34b9ee78ecffe4756b23ff525229552ef4e0a"
+    },
+    {
+        "idx": 10,
+        "timestamp": 1760349334.9544728,
+        "student_data": {
+            "name": "pqr",
+            "roll": "3",
+            "email": "pqr@yahoo.com",
+            "semester": "2",
+            "contact": "1234567890",
+            "marks": {
+                "1": {
+                    "Physics": 89,
+                    "Mathematics-I": 99,
+                    "Introduction to Electrical Engineering": 99
+                }
+            }
+        },
+        "previous_hash": "0000841a6b7bb10274fbf6cc1fa34b9ee78ecffe4756b23ff525229552ef4e0a",
+        "nonce": 73905,
+        "hash": "000094ca4117f9d43fd1d447e6ae0de2864566f0cb69d019c37b8aaccf8290c3"
+    },
+    {
+        "idx": 11,
+        "timestamp": 1760349430.8743825,
+        "student_data": {
+            "name": "ABC",
+            "roll": "1",
+            "email": "abc@gmail.com",
+            "semester": "2",
+            "contact": "9719633279",
+            "marks": {
+                "1": {
+                    "Physics": 99,
+                    "Mathematics-I": 89,
+                    "Introduction to Electrical Engineering": 97
+                },
+                "2": {
+                    "Programming in C": 99,
+                    "Mathematics-II": 78,
+                    "English": 89,
+                    "Chemistry": 85
+                }
+            }
+        },
+        "previous_hash": "000094ca4117f9d43fd1d447e6ae0de2864566f0cb69d019c37b8aaccf8290c3",
+        "nonce": 39268,
+        "hash": "00003df54535355e372673977e5d68ec78e961310f81e92522ab5e9615ebda08"
+    },
+    {
+        "idx": 12,
+        "timestamp": 1760349508.874961,
+        "student_data": {
+            "name": "xyz",
+            "roll": "2",
+            "email": "xyz@gmail.com",
+            "semester": "2",
+            "contact": "8718766549",
+            "marks": {
+                "1": {
+                    "Physics": 87,
+                    "Mathematics-I": 88,
+                    "Introduction to Electrical Engineering": 79
+                },
+                "2": {
+                    "Programming in C": 98,
+                    "Mathematics-II": 78,
+                    "English": 99,
+                    "Chemistry": 89
+                }
+            }
+        },
+        "previous_hash": "00003df54535355e372673977e5d68ec78e961310f81e92522ab5e9615ebda08",
+        "nonce": 36882,
+        "hash": "00003ee8287fad2e510f4e7cfd366f740d9e85e3b6f5695e57f82d07c8ed9a19"
+    },
+    {
+        "idx": 13,
+        "timestamp": 1760349535.1037993,
+        "student_data": {
+            "name": "pqr",
+            "roll": "3",
+            "email": "pqr@yahoo.com",
+            "semester": "2",
+            "contact": "1234567890",
+            "marks": {
+                "1": {
+                    "Physics": 89,
+                    "Mathematics-I": 99,
+                    "Introduction to Electrical Engineering": 99
+                },
+                "2": {
+                    "Programming in C": 87,
+                    "Mathematics-II": 88,
+                    "English": 89,
+                    "Chemistry": 90
+                }
+            }
+        },
+        "previous_hash": "00003ee8287fad2e510f4e7cfd366f740d9e85e3b6f5695e57f82d07c8ed9a19",
+        "nonce": 11707,
+        "hash": "0000c0575ffa5edb324fd1ca9b24ba28250449a6d11af063f5fc806168f00601"
+    },
+    {
+        "idx": 14,
+        "timestamp": 1760351335.8711872,
+        "student_data": {
+            "name": "xyz",
+            "roll": "2",
+            "email": "ghdhie@yahoo.com",
+            "semester": "2",
+            "contact": "8718766549",
+            "marks": {
+                "1": {
+                    "Physics": 87,
+                    "Mathematics-I": 88,
+                    "Introduction to Electrical Engineering": 79
+                },
+                "2": {
+                    "Programming in C": 98,
+                    "Mathematics-II": 78,
+                    "English": 99,
+                    "Chemistry": 89
+                }
+            }
+        },
+        "previous_hash": "0000c0575ffa5edb324fd1ca9b24ba28250449a6d11af063f5fc806168f00601",
+        "nonce": 8227,
+        "hash": "0000214cddad01b6d5682a15b651d4feb6484e0383149cc5af429ccfd520de95"
+    },
+    {
+        "idx": 15,
+        "timestamp": 1760366080.863561,
+        "student_data": {
+            "name": "ABC",
+            "roll": "1",
+            "email": "abc@gmail.com",
+            "semester": "2",
+            "contact": "9719633279",
+            "marks": {
+                "1": {
+                    "Physics": 99,
+                    "Mathematics-I": 89,
+                    "Introduction to Electrical Engineering": 97
+                },
+                "2": {
+                    "Programming in C": 100,
+                    "Mathematics-II": 98,
+                    "English": 99,
+                    "Chemistry": 91
+                }
+            }
+        },
+        "previous_hash": "0000214cddad01b6d5682a15b651d4feb6484e0383149cc5af429ccfd520de95",
+        "nonce": 74783,
+        "hash": "0000f0e74d77547cfd68885b3291118ef64fe837b900c5334bfff7c931ab6e7b"
+    },
+    {
+        "idx": 16,
+        "timestamp": 1760366332.6822386,
+        "student_data": {
+            "name": "pqr",
+            "roll": "3",
+            "email": "pqr@yahoo.com",
+            "semester": "2",
+            "contact": "1234567890",
+            "marks": {
+                "1": {
+                    "Physics": 89,
+                    "Mathematics-I": 99,
+                    "Introduction to Electrical Engineering": 99
+                },
+                "2": {
+                    "Programming in C": 87,
+                    "Mathematics-II": 88,
+                    "English": 89,
+                    "Chemistry": 90
+                }
+            },
+            "deleted": true
+        },
+        "previous_hash": "0000f0e74d77547cfd68885b3291118ef64fe837b900c5334bfff7c931ab6e7b",
+        "nonce": 36222,
+        "hash": "0000b178f20aad4a4c910b77f1052f25095e0a0c0341096ee6c33f7729bac40a"
+    },
+    {
+        "idx": 17,
+        "timestamp": 1760366398.2303872,
+        "student_data": {
+            "name": "xyz",
+            "roll": "2",
+            "email": "ghdhie@yahoo.com",
+            "semester": "2",
+            "contact": "9561574680",
+            "marks": {
+                "1": {
+                    "Physics": 87,
+                    "Mathematics-I": 88,
+                    "Introduction to Electrical Engineering": 79
+                },
+                "2": {
+                    "Programming in C": 98,
+                    "Mathematics-II": 78,
+                    "English": 99,
+                    "Chemistry": 89
+                }
+            }
+        },
+        "previous_hash": "0000b178f20aad4a4c910b77f1052f25095e0a0c0341096ee6c33f7729bac40a",
+        "nonce": 13118,
+        "hash": "00006c5b531b0d684f3d7980ef8a282614b5f98e7542b132d9cd3c1ffd0c7875"
+    },
+    {
+        "idx": 18,
+        "timestamp": 1760367211.6951191,
+        "student_data": {
+            "name": "XANDER",
+            "roll": "3",
+            "email": "xander@yah.com",
+            "semester": "1",
+            "contact": "2351648079",
+            "marks": {}
+        },
+        "previous_hash": "00006c5b531b0d684f3d7980ef8a282614b5f98e7542b132d9cd3c1ffd0c7875",
+        "nonce": 907,
+        "hash": "0000541c5fa9da017e3e6fc9bf2459dc9addaae0a409b029551fdbee5ce8e84c"
+    },
+    {
+        "idx": 19,
+        "timestamp": 1760367261.2538478,
+        "student_data": {
+            "name": "XANDER",
+            "roll": "3",
+            "email": "xander@yah.com",
+            "semester": "1",
+            "contact": "2351648079",
+            "marks": {
+                "1": {
+                    "Physics": 97,
+                    "Mathematics-I": 90,
+                    "Introduction to Electrical Engineering": 56
+                }
+            }
+        },
+        "previous_hash": "0000541c5fa9da017e3e6fc9bf2459dc9addaae0a409b029551fdbee5ce8e84c",
+        "nonce": 99203,
+        "hash": "0000cab6984987ed05eb4c62fb731a842ea71d6453b4881508ee87544d00ff8a"
+    },
+    {
+        "idx": 20,
+        "timestamp": 1760367285.8996959,
+        "student_data": {
+            "name": "XANDER",
+            "roll": "3",
+            "email": "xander@yah.com",
+            "semester": "2",
+            "contact": "2351648079",
+            "marks": {
+                "1": {
+                    "Physics": 97,
+                    "Mathematics-I": 90,
+                    "Introduction to Electrical Engineering": 56
+                }
+            }
+        },
+        "previous_hash": "0000cab6984987ed05eb4c62fb731a842ea71d6453b4881508ee87544d00ff8a",
+        "nonce": 50014,
+        "hash": "0000d12e28ec757e92cabe2d41610313074f1c3919d424d15b1f5589070e72ef"
+    },
+    {
+        "idx": 21,
+        "timestamp": 1760367304.6097212,
+        "student_data": {
+            "name": "XANDER",
+            "roll": "3",
+            "email": "xander@yah.com",
+            "semester": "2",
+            "contact": "2351648079",
+            "marks": {
+                "1": {
+                    "Physics": 97,
+                    "Mathematics-I": 90,
+                    "Introduction to Electrical Engineering": 96
+                }
+            }
+        },
+        "previous_hash": "0000d12e28ec757e92cabe2d41610313074f1c3919d424d15b1f5589070e72ef",
+        "nonce": 25869,
+        "hash": "00009930d78df17ed3b7fdf09ed476d40903dc6c1159d201dd523802f1d94286"
+    },
+    {
+        "idx": 22,
+        "timestamp": 1760367323.229704,
+        "student_data": {
+            "name": "XANDER",
+            "roll": "3",
+            "email": "xander@yah.com",
+            "semester": "2",
+            "contact": "2351648079",
+            "marks": {
+                "1": {
+                    "Physics": 97,
+                    "Mathematics-I": 90,
+                    "Introduction to Electrical Engineering": 96
+                },
+                "2": {
+                    "Programming in C": 89,
+                    "Mathematics-II": 78,
+                    "English": 77,
+                    "Chemistry": 71
+                }
+            }
+        },
+        "previous_hash": "00009930d78df17ed3b7fdf09ed476d40903dc6c1159d201dd523802f1d94286",
+        "nonce": 110337,
+        "hash": "0000c32f97f13db03f1a078adb6d7abadfea9c76f1e6bf8dbe37409cea1403e1"
+    },
+    {
+        "idx": 23,
+        "timestamp": 1760368650.6796894,
+        "student_data": {
+            "name": "XANDER",
+            "roll": "3",
+            "email": "xander@yah.com",
+            "semester": "2",
+            "contact": "2351648079",
+            "marks": {
+                "1": {
+                    "Physics": 97,
+                    "Mathematics-I": 90,
+                    "Introduction to Electrical Engineering": 96
+                },
+                "2": {
+                    "Programming in C": 89,
+                    "Mathematics-II": 78,
+                    "English": 77,
+                    "Chemistry": 71
+                }
+            },
+            "deleted": true
+        },
+        "previous_hash": "0000c32f97f13db03f1a078adb6d7abadfea9c76f1e6bf8dbe37409cea1403e1",
+        "nonce": 82552,
+        "hash": "0000d178188a223a06dffabaede2f24ed31b042a8f4d04aceb7316071ef154df"
+    }
+]
