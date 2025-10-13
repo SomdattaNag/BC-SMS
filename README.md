@@ -73,10 +73,10 @@ A BLOCKCHAIN based student management system for storing & verifying student dat
 ## Student View Features
 
 1. Display Student Details
-  - View own personal information
-  - Access: Name, Roll, Email, Contact, Semester
-  - Read-only access to personal data
-  - Real-time data retrieval
+   - View own personal information
+   - Access: Name, Roll, Email, Contact, Semester
+   - Read-only access to personal data
+   - Real-time data retrieval
 
 2. Display Marksheet
    - View own marks and grades
