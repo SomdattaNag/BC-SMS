@@ -2,15 +2,6 @@
 
 A BLOCKCHAIN based student management system for storing & verifying student data securely.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Overview
 
 **BC-SMS** leverages blockchain technology to manage, store, and verify student data securely. By using decentralized data structures, the system enhances data integrity, transparency, and security for educational institutions and students.
