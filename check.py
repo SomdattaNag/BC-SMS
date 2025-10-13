@@ -1,8 +1,9 @@
+import hashlib
+import json
+
 def verify_blockchain_integrity(filename="blockchain.json"):
     """External function to verify blockchain integrity"""
-    import hashlib
-    import json
-    
+
     print("\n" + "="*70)
     print("🔍 EXTERNAL BLOCKCHAIN INTEGRITY VERIFICATION")
     print("="*70)
