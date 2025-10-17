@@ -5,25 +5,25 @@ def verify_blockchain_integrity(filename="blockchain.json"):
     """External function to verify blockchain integrity"""
 
     print("\n" + "="*70)
-    print("🔍 EXTERNAL BLOCKCHAIN INTEGRITY VERIFICATION")
+    print("EXTERNAL BLOCKCHAIN INTEGRITY VERIFICATION")
     print("="*70)
     
     try:
         with open(filename, "r") as f:
             chain_data = json.load(f)
     except FileNotFoundError:
-        print("❌ Blockchain file not found!")
+        print("Blockchain file not found!")
         return False
     
     if not chain_data:
-        print("❌ Empty blockchain!")
+        print("Empty blockchain!")
         return False
     genesis = chain_data[0]
-    print(f"\n📦 GENESIS BLOCK VERIFICATION:")
+    print(f"\n GENESIS BLOCK VERIFICATION:")
     print(f"   Index: {genesis['idx']} (should be 0) - {'✅' if genesis['idx'] == 0 else '❌'}")
     print(f"   Previous Hash: '{genesis['previous_hash']}' (should be '0') - {'✅' if genesis['previous_hash'] == '0' else '❌'}")
 
-    print(f"\n🔗 BLOCK-BY-BLOCK INTEGRITY CHECK:")
+    print(f"\n BLOCK-BY-BLOCK INTEGRITY CHECK:")
     all_blocks_valid = True
     
     for i in range(len(chain_data)):
@@ -52,14 +52,14 @@ def verify_blockchain_integrity(filename="blockchain.json"):
         print(f"     POW valid: {'✅' if pow_valid else '❌'}")
         if i > 0:
             print(f"     Chain link: {'✅' if link_valid else '❌'}")
-    print(f"\n🔒 TAMPERING DETECTION TESTS:")
+    print(f"\nTAMPERING DETECTION TESTS:")
     print("\n" + "="*70)
     if all_blocks_valid:
-        print("🎉 BLOCKCHAIN INTEGRITY: ✅ PERFECT - No tampering detected!")
+        print("BLOCKCHAIN INTEGRITY: ✅ PERFECT - No tampering detected!")
         print(f"   Total blocks: {len(chain_data)}")
         print(f"   Latest block timestamp: {chain_data[-1]['timestamp']}")
     else:
-        print("🚨 BLOCKCHAIN INTEGRITY: ❌ COMPROMISED - Tampering detected!")
+        print("BLOCKCHAIN INTEGRITY: ❌ COMPROMISED - Tampering detected!")
     
     print("="*70)
     return all_blocks_valid
